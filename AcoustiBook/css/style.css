@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #e8f1ff, #f3ecff);
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #0d6efd !important;
+}
+
+.card-gradient-blue {
+    background: linear-gradient(135deg, #0d6efd, #5f9cff);
+    color: #fff;
+}
+
+.card-gradient-green {
+    background: linear-gradient(135deg, #20c997, #5ddfb3);
+    color: #fff;
+}
+
+.card-gradient-purple {
+    background: linear-gradient(135deg, #6f42c1, #9b7ad9);
+    color: #fff;
+}
+
+.menu-btn {
+    height: 100%;
+    font-weight: 600;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.calendar-placeholder {
+    height: 300px;
+    background: repeating-linear-gradient(
+        45deg,
+        #f8f9fa,
+        #f8f9fa 10px,
+        #e9ecef 10px,
+        #e9ecef 20px
+    );
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+textarea.form-control {
+    resize: none;
+    font-size: 0.95rem;
+}
